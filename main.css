@@ -26,6 +26,7 @@ main .list {
 main .list .item {
   padding: 15px;
   border-bottom: 1px solid #ccc;
+  font-size: 20px;
 }
 main .list .item:first-of-type {
   border-bottom: none;
