@@ -34,3 +34,31 @@ main .list .item:first-of-type {
 main .list .item:hover {
   background: rgba(0, 0, 0, 0.05);
 }
+.pagenumbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pagenumbers button {
+  width: 50px;
+  height: 50px;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #44aaee;
+  margin: 5px;
+  transition: 0.4s;
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+.pagenumbers button:hover {
+  background-color: #549ab8;
+}
+.pagenumbers button.active {
+  background-color: #549ab8;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
